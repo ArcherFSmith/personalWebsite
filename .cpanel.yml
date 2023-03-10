@@ -9,3 +9,4 @@ deployment:
  - /bin/cp about.html $DEPLOYPATH
  - /bin/cp portfolio.html $DEPLOYPATH
  - /bin/cp other.html $DEPLOYPATH
+ 
