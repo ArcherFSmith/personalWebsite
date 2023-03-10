@@ -2,4 +2,6 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/archeguf/public_html/
- - /repositories/personalWebsite index.html $DEPLOYPATH
+ - /bin/rm -Rf $DEPLOYPATH
+ - /bin/mkdir $DEPLOYPATH
+ - /bin/cp index.html $DEPLOYPATH
