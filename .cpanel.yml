@@ -12,5 +12,5 @@ deployment:
  - /bin/cp other.html $DEPLOYPATH
  - /bin/rm -Rf $DEPLOYPATHDE
  - /bin/mkdir $DEPLOYPATHDE
- - /bin/cp/de index.html $DEPLOYPATH
+ - /bin/cp /de/index.html $DEPLOYPATH
  
