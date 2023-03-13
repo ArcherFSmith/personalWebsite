@@ -8,10 +8,10 @@ deployment:
     - /bin/cp styles.css $DEPLOYPATH
     - /bin/cp portfolio.html $DEPLOYPATH
     - /bin/cp other.html $DEPLOYPATH
-    - export DEPLOYPATH=/home/archeguf/de.archerfsmith.com/
-    - /bin/rm -Rf $DEPLOYPATH
-    - /bin/mkdir $DEPLOYPATH
-    - /bin/cp /de/index.html $DEPLOYPATH
-    - /bin/cp /de/styles.css $DEPLOYPATH
-    - /bin/cp /de/portfolio.html $DEPLOYPATH
-    - /bin/cp /de/other.html $DEPLOYPATH
+    - export DEPLOYPATHDE=/home/archeguf/de.archerfsmith.com/
+    - /bin/rm -Rf $DEPLOYPATHDE
+    - /bin/mkdir $DEPLOYPATHDE
+    - /bin/cp /de/index.html $DEPLOYPATHDE
+    - /bin/cp /de/styles.css $DEPLOYPATHDE
+    - /bin/cp /de/portfolio.html $DEPLOYPATHDE
+    - /bin/cp /de/other.html $DEPLOYPATHDE
