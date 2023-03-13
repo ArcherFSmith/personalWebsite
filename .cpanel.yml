@@ -9,8 +9,3 @@ deployment:
  - /bin/cp styles.css $DEPLOYPATH
  - /bin/cp portfolio.html $DEPLOYPATH
  - /bin/cp other.html $DEPLOYPATH
- - export DEPLOYPATHDE=/home/archeguf/de.archerfsmith.com/
- - /bin/rm -Rf $DEPLOYPATHDE
- - /bin/mkdir $DEPLOYPATHDE
- - /bin/cp /de/index.html $DEPLOYPATHDE
- 
