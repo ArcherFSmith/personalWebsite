@@ -2,10 +2,15 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/archeguf/public_html/
+ - export DEPLOYPATHDE=/home/archeguf/de.archerfsmith.com/
  - /bin/rm -Rf $DEPLOYPATH
  - /bin/mkdir $DEPLOYPATH
  - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp/ $DEPLOYPATH
  - /bin/cp styles.css $DEPLOYPATH
  - /bin/cp portfolio.html $DEPLOYPATH
  - /bin/cp other.html $DEPLOYPATH
+ - /bin/rm -Rf $DEPLOYPATHDE
+ - /bin/mkdir $DEPLOYPATHDE
+ - /bin/cp/de index.html $DEPLOYPATH
  
