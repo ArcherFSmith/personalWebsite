@@ -1,0 +1,21 @@
+
+body {
+	background-color: black;
+}
+
+.landingPageTitle {
+	font-size: 56px;
+	color: Orange;
+	position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.landingPageTitleSubtext {
+	color: orange;
+	position: fixed;
+    top: 55%;
+    left: 55%;
+    transform: translate(-35%, -35%);
+}
