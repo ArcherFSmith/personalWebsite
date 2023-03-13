@@ -7,5 +7,11 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp styles.css $DEPLOYPATH
     - /bin/cp portfolio.html $DEPLOYPATH
-    - /bin/cp other.html $DEPLOYPATHs
-        
+    - /bin/cp other.html $DEPLOYPATH
+    - export DEPLOYPATH=/home/archeguf/de.archerfsmith.com/
+    - /bin/rm -Rf $DEPLOYPATH
+    - /bin/mkdir $DEPLOYPATH
+    - /bin/cp /de/index.html $DEPLOYPATH
+    - /bin/cp /de/styles.css $DEPLOYPATH
+    - /bin/cp /de/portfolio.html $DEPLOYPATH
+    - /bin/cp /de/other.html $DEPLOYPATH
