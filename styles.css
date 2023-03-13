@@ -5,12 +5,10 @@ body {
 .pageTitle {
 	font-size: 56px;
 	color: Orange;
-	position: fixed;
     text-align: center;
 }
 
 .pageTitleSubtext {
 	color: orange;
-	position: fixed;
     text-align: center;
 }
